@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #0f2a33;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #00e676;
+}
+
+/* HERO */
+.hero {
+  padding: 50px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #00c853;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* SECTIONS */
+.section-title {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.card {
+  background: #fff;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.highlight {
+  border-left: 6px solid #00c853;
+}
+
+.trust {
+  background: #fff;
+  margin: 30px 20px;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.trust ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.trust li {
+  margin-bottom: 8px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0f2a33;
+  color: #fff;
+  margin-top: 40px;
+}
